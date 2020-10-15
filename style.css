@@ -1,13 +1,35 @@
-.jumbotron {
-    background-image: url(hero.jpg);
-    /* background-repeat: no-repeat; */
-    /* width: 100%; */
-    height: 50vh;
+* {
+    scroll-behavior: smooth;
 }
 
-#yes {
-    padding: 20px 10px;
-    border: 1px solid rgb(185, 38, 38);
+:root {
+    --orange: #FB5607;
+    --black: #171717;
+    --white: #F4F5F5;
+}
+
+
+/* Nav Styling */
+
+nav {
+    height: 4.68em;
+    background-color: var(--black);
+    position: fixed;
+    width: 100%;
+}
+
+
+/* Landing Styling */
+
+#welcome-section {
+    background-image: url(hero.jpg);
+    height: 60vh;
+    padding-top: 4.68em;
+    color: var(--white);
+}
+
+span {
+    color: var(--orange);
 }
 
 .card-block {
