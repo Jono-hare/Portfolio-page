@@ -1,0 +1,10 @@
+.jumbotron {}
+
+#yes {
+    padding: 20px 10px;
+    border: 1px solid rgb(185, 38, 38);
+}
+
+.card-block {
+    padding: 10px;
+}
