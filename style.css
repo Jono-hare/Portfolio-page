@@ -1,10 +1,101 @@
+<<<<<<< Updated upstream
 .jumbotron {}
+=======
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --orange: #FB5607;
+    --black: #171717;
+    --white: #d3d3d3;
+}
+
+
+/* Nav Styling */
+
+nav {
+    height: 4.68em;
+    background-color: var(--black);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+/* Landing Styling */
+
+#welcome-section {
+    /* display: flex; */
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    padding-top: 4.68em;
+    color: var(--white);
+}
+>>>>>>> Stashed changes
 
 #yes {
     padding: 20px 10px;
     border: 1px solid rgb(185, 38, 38);
 }
 
+
+/* Project Styling */
+
+#projects {
+    text-align: center;
+    margin: 50px auto;
+}
+
+#projects h2 {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.card {
+    margin: 20px 10px;
+    box-shadow: 1px 1px 3px;
+}
+
 .card-block {
-    padding: 10px;
+    padding: 15px;
+}
+
+
+/* Contact Styling */
+
+#contact {
+    background-image: url(hero.jpg);
+}
+
+#container-box {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#container-box h2 {
+    color: white;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.form-control {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+#container-box input {}
+
+
+/* Button Styling */
+
+.nav-link {
+    color: var(--orange);
 }
