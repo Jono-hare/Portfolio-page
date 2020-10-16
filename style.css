@@ -1,7 +1,6 @@
-<<<<<<< Updated upstream
-.jumbotron {}
-=======
-* {
+<<<<<<< Updated upstream .jumbotron {}
+
+=======* {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
@@ -37,9 +36,8 @@ nav {
     padding-top: 4.68em;
     color: var(--white);
 }
->>>>>>> Stashed changes
 
-#yes {
+>>>>>>>Stashed changes #yes {
     padding: 20px 10px;
     border: 1px solid rgb(185, 38, 38);
 }
